@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>PortfolioPerfect</title>
+    <title>Vikrant's Portfolio</title>
 
     <meta name="description" content="">
     <meta name="author" content="">
@@ -65,8 +65,8 @@
 
                         <li class="page-scroll"><a href="#hero">Home</a></li>
                         <li class="page-scroll"><a href="#about">About</a></li>
-                        <li class="page-scroll"><a href="#service">Service</a></li>
-                        <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
+                        <li class="page-scroll"><a href="#service">Skills</a></li>
+                        <li class="page-scroll"><a href="#portfolio">Projects</a></li>
                         <li class="page-scroll"><a href="#contact">Contact</a></li>
                         
                     </ul><!-- /.navbar-nav -->
@@ -82,17 +82,17 @@
             <div class="row">
 
                 <div class="col-md-6">
-                    <h1>Alex Vidal</h1>
+                    <h1>Vikrant Banerjee</h1>
                     <div class="page-scroll">
-                        <p class="job-title">Full Stack Developer</p>
-                        <a href="#contact" class="btn btn-fill ">Hire me</a>
+                        <p class="job-title">University of Illinois at Urbana-Champaign</p>
+                        <a href="#contact" class="btn btn-fill ">Contact</a>
                         <div class="clearfix visible-xxs"></div>
-                        <a href="#portfolio" class="btn btn-border">Explore more</a>
+                        <a href="#portfolio" class="btn btn-border">See Projects</a>
                     </div>
                 </div>
             
                 <div class="col-md-6 text-right">
-                    <img src="assets/img/alex-vidal.png" alt="alex-vidal">
+                    <img src="assets/img/v-banerjee.png" alt="v-banerjee">
                 </div>
 
             </div>
@@ -107,7 +107,7 @@
                     <div class="col-md-6 col-md-offset-3">
                         <h2>About</h2>
                         <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                        <p>Hello! I'm Alex, a full stuck developer, a Ruby enthusiast, and a guy slighty obsessed for code quality. Also I'm a co-founder of pykod.com. I’m currently available for freelance work. If you have a project that you want to get started or think you need my help with something, then get in touch.</p>
+                        <p>Hello! I'm Vikrant, a full stuck developer, a Ruby enthusiast, and a guy slighty obsessed for code quality. Also I'm a co-founder of pykod.com. I’m currently available for freelance work. If you have a project that you want to get started or think you need my help with something, then get in touch.</p>
                         <a href="http://www.grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf" class="btn btn-fill" target="_blank" download>Download my cv</a>
                     </div>
                 </div>
