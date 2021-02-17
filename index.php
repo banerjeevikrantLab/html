@@ -55,7 +55,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     
-                    <a href="#hero" class="site-logo"><img src="assets/img/logo.png" alt="logo"></a>
+                    <a href="#hero" class="site-logo"><img src="https://images.squarespace-cdn.com/content/v1/59cac35b0abd04dec20b4d97/1507223228403-6L8H684VBIXPYEWN3V0Z/ke17ZwdGBToddI8pDm48kGQxcixpIfsmKSqua_sqYN1Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PI5asqFamlZVnNlIdP_OswWACvdzT0Bj8xuu1n4nN9gKc/Illinois-Wordmark-Horizontal-Full-Color-RGB.png" width="200px" alt="logo"></a>
 
                 </div><!-- /.navbar-header -->
 
@@ -82,12 +82,15 @@
             <div class="row">
 
                 <div class="col-md-6">
-                    <h1>Vikrant Banerjee</h1>
+                    <h1 class = "illi-blue">Vikrant Banerjee</h1>
                     <div class="page-scroll">
-                        <p class="job-title">University of Illinois at Urbana-Champaign</p>
-                        <a href="#contact" class="btn btn-fill ">Contact</a>
+                        <div class="info-bio">
+                            <p class="job-title">Studying Computer Engineering at</p>
+                            <p class="job-title">Univeristy of Illinois at Urbana-Champaign</p>
+                        </div>
+                        <a href="#contact" class="btn btn-border link-btn"><img class="button-icon" src="assets/img/linkedin-logo.png" />Connect LinkedIn</a>
                         <div class="clearfix visible-xxs"></div>
-                        <a href="#portfolio" class="btn btn-border">See Projects</a>
+                        <a href="#portfolio" class="btn btn-border git-btn"><img class="button-icon" src="assets/img/github-logo.png" />See Github</a>
                     </div>
                 </div>
             
@@ -108,7 +111,7 @@
                         <h2>About</h2>
                         <img src="assets/img/lines.svg" class="img-lines" alt="lines">
                         <p>Hello! I'm Vikrant, a full stuck developer, a Ruby enthusiast, and a guy slighty obsessed for code quality. Also I'm a co-founder of pykod.com. I’m currently available for freelance work. If you have a project that you want to get started or think you need my help with something, then get in touch.</p>
-                        <a href="http://www.grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf" class="btn btn-fill" target="_blank" download>Download my cv</a>
+                        <a href="http://www.grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf" class="btn btn-fill" target="_blank" download>Download my Resume</a>
                     </div>
                 </div>
             </div>

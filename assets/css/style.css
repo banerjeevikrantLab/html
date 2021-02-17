@@ -65,11 +65,19 @@ h4 {
     font-size: 30px;
 }
 
+.illi-blue{
+    color: #14294b !important;
+
+}
+.illi-orange{
+    color: #e84b26 !important;
+}
+
 /* Buttons */ 
 .btn {
     min-width: 145px;
     line-height: 50px;
-    padding: 0 30px;
+    padding: 0 25px;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
@@ -83,13 +91,13 @@ h4 {
 
 .btn-fill {
     color: #fff;
-    background-color: #212121;
+    background-color: #14294b;
 }
 
 .btn-border {
     background-color: transparent;
-    color: #212121;
-    border: 1px solid #212121; 
+    color: #14294b;
+    border: 1px solid #14294b; 
 }
 
 .btn-fill:hover,
@@ -106,7 +114,7 @@ h4 {
 .form-control {
     padding-left: 10px;
     border: 0;
-    border-bottom: 1px solid #212121;
+    border-bottom: 1px solid #14294B;
     border-radius: 0;
     background-color: transparent; 
     box-shadow: none;
@@ -139,7 +147,7 @@ html, body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    color: #212121;
+    color: #14294b;
 }
 
 .img-res {
@@ -178,7 +186,7 @@ html, body {
 .navbar-nav > li > a {
     padding: 5px 0;
     font-weight: 600;
-    color: #212121;
+    color: #14294b;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
     transition: border-color 0.25s ease-in-out;
@@ -201,7 +209,7 @@ html, body {
 .nav > li > a:hover,
 .nav > li.active > a {
     background-color: transparent;
-    border-bottom: 2px solid #212121;
+    border-bottom: 2px solid #14294b;
 }
 
 .nav > li > a:focus {
@@ -248,13 +256,28 @@ html, body {
 }
 
 .job-title {
-    font-size: 22px;
-    margin-bottom: 30px;
+    font-size: 18px;
+    margin-bottom: 15px;
     line-height: 1;
 } 
+.info-bio{
+    margin-top:20px;
+    margin-bottom:50px;
+}
 
 .hero img {
     height: 600px;
+}
+
+.button-icon{
+    width: 25px !important;
+    height: 25px !important;
+    margin-right: 10px;
+    margin-left: -10px;
+}
+
+.link-btn,.git-btn:hover{
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 
 /* SITEMAIN
@@ -309,7 +332,7 @@ html, body {
 }
 
 .progress-bar {
-    background-color: #212121;  
+    background-color: #14294b;  
 }
 
 /* Section: Services */
@@ -430,7 +453,7 @@ html, body {
 }
 
 .portfolio-item-info a:hover {
-    color: #212121;
+    color: #14294b;
     background-color: #fff;
 }
 
@@ -461,9 +484,9 @@ html, body {
     margin-top: 0;
     background-color: #fff;
     font-size: 16px;
-    color: #212121;
-    border-left: 1px solid #212121;
-    border-bottom: 1px solid #212121;
+    color: #14294b;
+    border-left: 1px solid #14294b;
+    border-bottom: 1px solid #14294b;
     opacity: 1;
     transition: box-shadow 0.25s ease-in-out;
     -moz-transition: box-shadow 0.25s ease-in-out;
@@ -531,7 +554,7 @@ html, body {
     bottom: 0;
     padding: 30px 0;
     width: 100%;
-    background-color: #212121;
+    background-color: #14294b;
     z-index: -1;
 }
 
@@ -567,7 +590,7 @@ a.twitter-bg:hover {color: #55acee;}
 a.facebook-bg:hover{color: #3b5998;}
 a.gplus-bg:hover{color: #007bb5;} 
 a.linkedin-bg:hover {color: #dd4b39;}
-a.icon-up-bg:hover {color: #212121;}
+a.icon-up-bg:hover {color: #14294b;}
 
 .copyright {
     margin-bottom: 0;
