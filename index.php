@@ -88,14 +88,14 @@
                             <p class="job-title">Studying Computer Engineering at</p>
                             <p class="job-title">Univeristy of Illinois at Urbana-Champaign</p>
                         </div>
-                        <a href="#contact" class="btn btn-border link-btn"><img class="button-icon" src="assets/img/linkedin-logo.png" />Connect LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/vikrant-banerjee-5a0aa0166/" target="_blank" class="btn btn-border link-btn"><img class="button-icon" src="assets/img/linkedin-logo.png" />Connect LinkedIn</a>
                         <div class="clearfix visible-xxs"></div>
-                        <a href="#portfolio" class="btn btn-border git-btn"><img class="button-icon" src="assets/img/github-logo.png" />See Github</a>
+                        <a href="https://github.com/banerjeevikrantLab" target="_blank" class="btn btn-border git-btn"><img class="button-icon" src="assets/img/github-logo.png" />See Github</a>
                     </div>
                 </div>
             
                 <div class="col-md-6 text-right">
-                    <img src="assets/img/v-banerjee.png" alt="v-banerjee">
+                    <!--<img src="assets/img/v-banerjee.png" alt="v-banerjee">-->
                 </div>
 
             </div>
@@ -104,71 +104,20 @@
 
     <main id="main" class="site-main">
 
-        <section id="about" class="site-section section-about text-center">
+        <section id="about" class="site-section section-about text-center" style="padding-bottom: 120px;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
                         <h2>About</h2>
                         <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                        <p>Hello! I'm Vikrant, a full stuck developer, a Ruby enthusiast, and a guy slighty obsessed for code quality. Also I'm a co-founder of pykod.com. I’m currently available for freelance work. If you have a project that you want to get started or think you need my help with something, then get in touch.</p>
+                        <p>Hey! I'm Vikrant, a full stuck developer, undergrad at uiuc, and a guy slighty obsessed for code quality. 
+                            Also I'm a co-founder of irlpoker.net. I’m currently looking for internships and freelance work. 
+                            If you have a project that you want to get started or think you need my help with something, then get in touch.</p>
                         <a href="http://www.grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf" class="btn btn-fill" target="_blank" download>Download my Resume</a>
                     </div>
                 </div>
             </div>
         </section><!-- /.secton-about -->
-
-        <section class="site-section section-skills">
-            <div class="container">
-                <div class="text-center">
-                    <h3>My Skills</h3>
-                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="skill">
-                            <h4>Html/css</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="100"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                        <div class="skill">
-                            <h4>Python</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="75"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                    </div>
-                    <div class="col-md-4">
-                        <div class="skill">
-                            <h4>Javascript</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="82"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                        <div class="skill">
-                            <h4>Ruby</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="66"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                    </div>
-                    <div class="col-md-4">
-                        <div class="skill">
-                            <h4>Php</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="97"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                        <div class="skill">
-                            <h4>Java</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="45"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                    </div>
-                </div>
-            </div>
-        </section><!-- /.secton-skills -->
 
         <section id="service" class="site-section section-services overlay text-center">
             <div class="container">
@@ -273,25 +222,6 @@
             </div>
         </section><!-- /.secton-portfolio -->
 
-        <section class="site-section section-counters text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4 col-xs-12">
-                        <p class="counter start" data-to="10" data-speed="2000">0</p>
-                        <h4>Years Experience</h4>
-                    </div>
-                    <div class="col-sm-4 col-xs-12">
-                        <p class="counter start" data-to="120" data-speed="2000">0</p>       
-                        <h4>Projects Delivered</h4>      
-                    </div>
-                    <div class="col-sm-4 col-xs-12">
-                        <p id="infinity" class="counter" data-from="0" data-to="1" data-speed="1000">0</p>
-                        <h4>Seconds on this site!<br>What are you waiting for?</h4>
-                    </div>
-                </div>
-            </div>
-        </section><!-- /.section-counters -->
-
         <section id="contact" class="site-section section-form text-center">
             <div class="container">
 
@@ -309,7 +239,7 @@
                             <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
                         </div>
                     </div>
-                    <button href="#" class="btn btn-border" type="submit">Hire Me <span class="glyphicon glyphicon-send"></span></button>
+                    <button href="#" class="btn btn-border" type="submit">Email me <span class="glyphicon glyphicon-send"></span></button>
                 </form>
             </div>
         </section><!-- /.section-form -->

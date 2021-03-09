@@ -266,7 +266,9 @@ html, body {
 }
 
 .hero img {
-    height: 600px;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
 }
 
 .button-icon{
