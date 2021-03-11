@@ -2,44 +2,30 @@
 <html lang="en">
 <head>
 
-    <!-- Basic Page Needs
-    ================================================== -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>Vikrant's Portfolio</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/skrollr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
+    <script src="assets/js/jquery.countTo.min.js"></script>
+    <script src="assets/js/script.js"></script>
 
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Personal Website">
+    <meta name="author" content="Vikrant Banerjee">
     <meta name="keywords" content="">
-
-    <!-- Mobile Specific Metas
-    ================================================== -->
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes" />
-
-    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-
-    <!-- Favicon
-    ================================================== -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
-
-    <!-- Stylesheets
-    ================================================== -->
-    <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 <body>
@@ -69,13 +55,13 @@
                         <li class="page-scroll"><a href="#portfolio">Projects</a></li>
                         <li class="page-scroll"><a href="#contact">Contact</a></li>
                         
-                    </ul><!-- /.navbar-nav -->
+                    </ul>
 
-                </div><!-- /.navbar-collapse -->
+                </div>
 
             </div>
-        </nav><!-- /.primary-navigation -->
-    </header><!-- /#header -->
+        </nav>
+    </header>
 
     <div id="hero" class="hero">
         <div class="container">
@@ -95,12 +81,12 @@
                 </div>
             
                 <div class="col-md-6 text-right">
-                    <!--<img src="assets/img/v-banerjee.png" alt="v-banerjee">-->
+                    <!--<img src="assets/img/alex-vidal.png" alt="v-banerjee">-->
                 </div>
 
             </div>
         </div>
-    </div><!-- /.hero -->
+    </div>
 
     <main id="main" class="site-main">
 
@@ -117,39 +103,42 @@
                     </div>
                 </div>
             </div>
-        </section><!-- /.secton-about -->
+        </section>
 
         <section id="service" class="site-section section-services overlay text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3>What i do</h3>
+                        <h3>My Skills:</h3>
                         <img src="assets/img/lines.svg" class="img-lines" alt="lines">
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
                             <img src="assets/img/front-end.svg" alt="Front End Developer">
-                            <h4>Front-end</h4>
-                            <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
-                        </div><!-- /.service -->
+                            <h4>Full-stack development</h4>
+                            <p>I have experience in HTML5 and CSS3/Bootstrap techniques working with jQuery or javascript MVC frameworks such as angular. 
+                                Also, I have experience building sophisticated back-end system with PHP and mySQL. </p>
+                        </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
                             <img src="assets/img/back-end.svg" alt="Back End Developer">
-                            <h4>Back-end</h4>
-                            <p>Utilising php frameworks such as Zend or creating bespoke code, I've written services supporting thousands of users, including REST APIs, e-learning applications and more.</p>
-                        </div><!-- /.service -->
+                            <h4>Mobile-apps development</h4>
+                            <p>I have experience working with both Android Studio and XCode and have build on communication based applications. </p>
+                        </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
                             <img src="assets/img/consultancy.svg" alt="Coding">
-                            <h4>Consultancy</h4>
-                            <p>As well as providing development services, I can also help you decide strategic roadmaps via consultancy services.</p>
-                        </div><!-- /.service -->
+                            <h4>Tools/Programming languages</h4>
+                            <p>Through my experience in competitive programming and classes at Urbana-Champaign, I have well versed in tools like git/github, gdb, and with languages
+                                such as python, java, C/C++ and assembly language.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section><!-- /.secton-services -->
+        </section>
 
         <section id="portfolio" class="site-section section-portfolio">
             <div class="container">
@@ -160,67 +149,37 @@
                 <div class="row">
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/port-1.jpg" class="img-res" alt="">
+                            <img src="assets/img/projectirlpoker.jpg" class="img-res" alt="">
                             <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
+                                <h4>irlpoker.net</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                                <a href="http://www.irlpoker.net" target="_blank"><span class="glyphicon glyphicon-link"></span></a>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/port-2.jpg" class="img-res" alt="">
+                            <img src="assets/img/projectfraccalc.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
+                                <h4>Fraction Calculator</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                                <a href="http://fractioncalc.vikrantb.com" target="_blank"><span class="glyphicon glyphicon-link"></span></a>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/port-3.jpg" class="img-res" alt="">
+                            <img src="assets/img/projectgames.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
+                                <h4>Games</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/port-4.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/port-5.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/port-6.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                                <a href="http://games.vikrantb.com" target="_blank"><span class="glyphicon glyphicon-link"></span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section><!-- /.secton-portfolio -->
+        </section>
 
         <section id="contact" class="site-section section-form text-center">
             <div class="container">
@@ -242,20 +201,20 @@
                     <button href="#" class="btn btn-border" type="submit">Email me <span class="glyphicon glyphicon-send"></span></button>
                 </form>
             </div>
-        </section><!-- /.section-form -->
+        </section>
 
-    </main><!-- /#main -->
+    </main>
 
     <footer id="colophon" class="site-footer">
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 col-xs-12">
-                    <a class="icon facebook-bg" href="#"><i class="icon-facebook"></i></a>
+                    <!--<a class="icon facebook-bg" href="#"><i class="icon-facebook"></i></a>
                     <a class="icon twitter-bg" href="#"><i class="icon-twitter"></i></a>
                     <a class="icon gplus-bg" href="#"><i class="icon-linkedin"></i></a>
-                    <a class="icon linkedin-bg" href="#"><i class="icon-gplus"></i></a>
+                    <a class="icon linkedin-bg" href="#"><i class="icon-gplus"></i></a>-->
                 </div>
-                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3"><p class="copyright">2017. All Rights Reserved</p></div>
+                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3"><p class="copyright">2021. All Rights Reserved</p></div>
                 <div class="col-sm-4 col-xs-3">
                     <div class="text-right page-scroll">
                         <a class="icon icon-up-bg" href="#hero"><i class="icon-up"></i></a>
@@ -271,18 +230,19 @@
         <div class="modal-content">
           <div class="modal-header">
             <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/Portfolio-1.jpg" alt="">
+            <img class="img-res" src="assets/img/projectirlpoker.jpg" alt="">
           </div>
           <div class="modal-body">
-            <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+            <h4 class="modal-title">irlpoker.net</h4>
+            <p><b>irlpoker.net</b> is an easy to use virtual card dealer. 
+                <br /> Keep the fun of in-person poker without the hassle of shuffling and dealing cards.</p>
           </div>
           <div class="modal-footer">
-            <a href="#" class="btn btn-fill">Visit Page</a>
+            <a href="http://www.irlpoker.net" class="btn btn-fill">Visit Page</a>
           </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+        </div>
+      </div>
+    </div><
 
     <div id="portfolioItem2" class="modal fade" role="dialog">
       <div class="modal-dialog">
@@ -298,9 +258,9 @@
           <div class="modal-footer">
             <a href="#" class="btn btn-fill">Visit Page</a>
           </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+        </div>
+      </div>
+    </div>
 
     <div id="portfolioItem3" class="modal fade" role="dialog">
       <div class="modal-dialog">
@@ -316,74 +276,9 @@
           <div class="modal-footer">
             <a href="#" class="btn btn-fill">Visit Page</a>
           </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
-    <div id="portfolioItem4" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/Portfolio-4.jpg" alt="">
-          </div>
-          <div class="modal-body">
-            <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
-          </div>
-          <div class="modal-footer">
-            <a href="#" class="btn btn-fill">Visit Page</a>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
-    <div id="portfolioItem5" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/Portfolio-5.jpg" alt="">
-          </div>
-          <div class="modal-body">
-            <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
-          </div>
-          <div class="modal-footer">
-            <a href="#" class="btn btn-fill">Visit Page</a>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
-    <div id="portfolioItem6" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/Portfolio-6.jpg" alt="">
-          </div>
-          <div class="modal-body">
-            <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
-          </div>
-          <div class="modal-footer">
-            <a href="#" class="btn btn-fill">Visit Page</a>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="assets/js/skrollr.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
-    <script src="assets/js/jquery.countTo.min.js"></script>
-    <script src="assets/js/script.js"></script>
+        </div>
+      </div>
+    </div>
   
 </body>
 </html>
