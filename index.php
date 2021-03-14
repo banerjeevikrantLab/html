@@ -96,10 +96,11 @@
                     <div class="col-md-6 col-md-offset-3">
                         <h2>About</h2>
                         <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                        <p>Hey! I'm Vikrant, a full stuck developer, undergrad at uiuc, and a guy slighty obsessed for code quality. 
+                        <p>Hey! I'm Vikrant, a student at uiuc, a full stack developer, and a guy slightly obsessed with using code to make life more convenient. 
+                            I’m experienced in most used programming languages and always eager to widen my knowledge about different tools used in industry.   
                             Also I'm a co-founder of irlpoker.net. I’m currently looking for internships and freelance work. 
                             If you have a project that you want to get started or think you need my help with something, then get in touch.</p>
-                        <a href="http://www.grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf" class="btn btn-fill" target="_blank" download>Download my Resume</a>
+                        <a href="assets/Resume.pdf" class="btn btn-fill" target="_blank" download>Download my Resume</a>
                     </div>
                 </div>
             </div>
@@ -171,7 +172,7 @@
                         <div class="portfolio-item">
                             <img src="assets/img/projectgames.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
-                                <h4>Games</h4>
+                                <h4>Interactive Games</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="http://games.vikrantb.com" target="_blank"><span class="glyphicon glyphicon-link"></span></a>
                             </div>
@@ -186,20 +187,8 @@
 
                 <h3>Contact</h3>
                 <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                <form>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <input type="text" name="name" class="form-control mt-x-0" placeholder="Name" required>
-                        </div>
-                        <div class="col-sm-6">
-                            <input type="email" name="email" class="form-control" placeholder="Email" required>   
-                        </div>
-                        <div class="col-sm-12">
-                            <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
-                        </div>
-                    </div>
-                    <button href="#" class="btn btn-border" type="submit">Email me <span class="glyphicon glyphicon-send"></span></button>
-                </form>
+                
+                <h5>vikrant3@illinois.edu</h3>
             </div>
         </section>
 
@@ -249,14 +238,18 @@
         <div class="modal-content">
           <div class="modal-header">
             <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/Portfolio-2.jpg" alt="">
+            <img class="img-res" src="assets/img/projectfraccalc.png" alt="">
           </div>
           <div class="modal-body">
-            <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+            <h4 class="modal-title">Lossless Fraction Calculator</h4>
+            <p>
+            A lossless fraction calculator that stores data as fractions so it doesn't lose data via rounding for division operation.
+            <br />It also displays results as fractions in the calculators display.
+
+            </p>
           </div>
           <div class="modal-footer">
-            <a href="#" class="btn btn-fill">Visit Page</a>
+            <a href="http://fractioncalc.vikrantb.com" target="_blank" class="btn btn-fill">Visit Page</a>
           </div>
         </div>
       </div>
@@ -267,14 +260,14 @@
         <div class="modal-content">
           <div class="modal-header">
             <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/Portfolio-3.jpg" alt="">
+            <img class="img-res" src="assets/img/projectgames.png" alt="">
           </div>
           <div class="modal-body">
-            <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+            <h4 class="modal-title">Interactive Games</h4>
+            <p>Fun interactive games built by javascript animation libraries.</p>
           </div>
           <div class="modal-footer">
-            <a href="#" class="btn btn-fill">Visit Page</a>
+            <a href="http://games.vikrantb.com" target="_blank" class="btn btn-fill">Visit Page</a>
           </div>
         </div>
       </div>
